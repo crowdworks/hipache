@@ -1,0 +1,24 @@
+{
+    "server": {
+        "accessLog": "hipache.log",
+        "workers": 10,
+        "maxSockets": 100,
+        "deadBackendTTL": 30,
+        "tcpTimeout": 30,
+        "retryOnError": 3,
+        "deadBackendOn500": true,
+        "httpKeepAlive": false,
+        "staticDir": null,
+        "debug": true
+    },
+    "http": {
+        "port": 9080,
+        "bind": [ "0.0.0.0" ]
+    },
+    "driver": "redis://:pass@127.0.0.1",
+    "rollout": {
+      "cookie": "_yourapps_session_id",
+      "driver": "redis://:pass@127.0.0.1#rollout",
+      "maxSegmentId": 50
+    }
+}
