@@ -25,6 +25,7 @@
     "http-proxy": "1.0.2",
     "redis": "0.10.x",
     "lru-cache": "2.5.x",
+    "buffer-crc32": "0.2.5",
     "minimist": "0.0.8"
   },
   "devDependencies": {
