@@ -12,7 +12,7 @@
     var jsreporter = require('jshint-stylish');
 
     var driverstests = ['./test/unit/driver-*'];
-    var unittests = ['./test/unit/*.js', '!./test/unit/driver-*'];
+    var unittests = ['./test/unit/**/*.js', '!./test/unit/driver-*'];
     var functests = ['./test/functional/*.js'];
     var alltests = ['./test/**/*.js'];
     var scripts = ['*.js', './bin/*', './lib/**/*.js', './test/**/*.js'];
