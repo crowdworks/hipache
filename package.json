@@ -26,6 +26,7 @@
     "http-proxy": "1.0.2",
     "lru-cache": "2.5.x",
     "minimist": "0.0.8",
+    "nested-error-stacks": "^1.0.0",
     "redis": "0.10.x",
     "when": "^3.7.3"
   },
