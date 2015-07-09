@@ -64,7 +64,7 @@
                 expect(cond.conditions[2].options.cookie).to.eql('_myapp_session_id');
                 expect(cond.conditions[2].options.maxSegmentId).to.eql(75);
 
-                loader.destructor();
+                factory.destructor();
             });
         });
     });

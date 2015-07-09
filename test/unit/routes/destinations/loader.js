@@ -28,7 +28,7 @@
                 expect(dest.client).to.be.ok;
                 expect(dest.client.prefix).to.eql('rollout');
 
-                loader.destructor();
+                factory.destructor();
             });
         });
     });

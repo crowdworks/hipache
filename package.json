@@ -28,6 +28,7 @@
     "minimist": "0.0.8",
     "nested-error-stacks": "^1.0.0",
     "redis": "0.10.x",
+    "weak": "^0.4.1",
     "when": "^3.7.3"
   },
   "devDependencies": {
