@@ -4,7 +4,7 @@
 
     var expect = require('chai').expect;
 
-    var And = require('../../../../lib/plugins/rollout/routing_conditions/and').And;
+    var And = require('../../../../lib/routes/conditions/and').And;
 
     function successfulCond(req, nodeback) { nodeback(undefined, !!req) }
     function failingCond(req, nodeback) { nodeback(undefined, !!!req) }

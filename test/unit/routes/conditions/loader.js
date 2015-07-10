@@ -4,7 +4,7 @@
 
     var expect = require('chai').expect;
 
-    var Factory = require('../../../../lib/plugins/rollout/factory');
+    var Factory = require('../../../../lib/routes/factory');
     var Loader = require('../../../../lib/routes/conditions/loader').Loader;
 
     var factory = Factory.fromDependencies({
