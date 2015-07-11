@@ -381,8 +381,8 @@ PaaS
 [travis-url]: http://travis-ci.org/crowdworks/lopache
 [travis-image]: https://secure.travis-ci.org/crowdworks/lopache.png?branch=master
 
-[coveralls-url]: https://coveralls.io/r/dotcloud/hipache
-[coveralls-image]: https://coveralls.io/repos/dotcloud/hipache/badge.png?branch=master
+[coveralls-url]: https://coveralls.io/r/crowdworks/lopache
+[coveralls-image]: https://coveralls.io/repos/crowdworks/lopache/badge.png?branch=master
 
 [depstat-url]: https://david-dm.org/hipache/hipache
 [depstat-image]: https://david-dm.org/hipache/hipache.png
