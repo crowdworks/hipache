@@ -52,7 +52,7 @@
     "loopfunc": false,
     "multistr": false,
     "onecase": false,
-    "proto": false,
+    "proto": true,
     "regexdash": false,
     "scripturl": false,
     "smarttabs": false,
