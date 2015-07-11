@@ -378,8 +378,8 @@ PaaS
 [npm-url]: https://npmjs.org/package/hipache
 [npm-image]: https://badge.fury.io/js/hipache.png
 
-[travis-url]: http://travis-ci.org/hipache/hipache
-[travis-image]: https://secure.travis-ci.org/hipache/hipache.png?branch=master
+[travis-url]: http://travis-ci.org/crowdworks/lopache
+[travis-image]: https://secure.travis-ci.org/crowdworks/lopache.png?branch=master
 
 [coveralls-url]: https://coveralls.io/r/dotcloud/hipache
 [coveralls-image]: https://coveralls.io/repos/dotcloud/hipache/badge.png?branch=master
