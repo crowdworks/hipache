@@ -26,10 +26,10 @@
     "http-proxy": "1.0.2",
     "lru-cache": "2.5.x",
     "minimist": "0.0.8",
-    "nested-error-stacks": "^1.0.0",
+    "nested-error-stacks": "1.0.0",
     "redis": "0.10.x",
-    "weak": "^0.4.1",
-    "when": "^3.7.3"
+    "weak": "0.4.1",
+    "when": "3.7.3"
   },
   "devDependencies": {
     "mocha": "1.x",

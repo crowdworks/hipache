@@ -18,6 +18,11 @@ addons:
 install:
     - npm install -g gulp
     - npm install
+    - npm outdated
+    - npm install nested-error-stacks
+    - npm install buffer-crc32
+    - npm install when
+    - npm install weak
     # Pythonic tests require
     - (cd test/functional && pip install --user -r requirements.txt)
     # Zookeeper install
