@@ -6,8 +6,8 @@
 
     var And = require('../../../../lib/routes/conditions/and').And;
 
-    function successfulCond(req, nodeback) { nodeback(undefined, !!req) }
-    function failingCond(req, nodeback) { nodeback(undefined, !!!req) }
+    function successfulCond(req, nodeback) { nodeback(undefined, !!req); }
+    function failingCond(req, nodeback) { nodeback(undefined, !!!req); }
 
     describe('And', function () {
         describe('#call', function () {
@@ -33,7 +33,7 @@
                     expect(data[1]).to.eql(false);
                     done();
                 });
-            })
+            });
         });
     });
 })();

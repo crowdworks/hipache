@@ -69,8 +69,8 @@
                 expect(route.condition.conditions[1].options.maxSegmentId).to.eql(77);
                 expect(route.condition.conditions[2].options.cookie).to.eql('_myapp_session_id');
                 expect(route.condition.conditions[2].options.maxSegmentId).to.eql(75);
-                expect(route.destination.lru).to.be.ok;
-                expect(route.destination.client).to.be.ok;
+                expect(route.destination.lru).to.be.ok();
+                expect(route.destination.client).to.be.ok();
                 expect(route.destination.client.prefix).to.eql('rollout');
 
                 factory.destructor();

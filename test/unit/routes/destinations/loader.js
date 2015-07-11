@@ -17,15 +17,14 @@
         }
     };
 
-    describe('destinations.Loader', function () {
+    describe('destinations.Loader', function() {
         describe('#load', function () {
             it('returns true when all the conditions resulted in truthy values', function () {
-                var req = {req:{name:"foo"}};
                 var loader = new Loader(factory);
                 var dest = loader.load(config);
 
-                expect(dest.lru).to.be.ok;
-                expect(dest.client).to.be.ok;
+                expect(dest.lru).to.be.ok();
+                expect(dest.client).to.be.ok();
                 expect(dest.client.prefix).to.eql('rollout');
 
                 factory.destructor();
