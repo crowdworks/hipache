@@ -387,8 +387,8 @@ PaaS
 [depstat-url]: https://david-dm.org/hipache/hipache
 [depstat-image]: https://david-dm.org/hipache/hipache.png
 
-[codeclimate-url]: https://codeclimate.com/github/dotcloud/hipache
-[codeclimate-image]: https://codeclimate.com/github/dotcloud/hipache.png
+[codeclimate-url]: https://codeclimate.com/github/crowdworks/lopache
+[codeclimate-image]: https://codeclimate.com/github/crowdworks/lopache.png
 
 [waffle-url]: https://waffle.io/hipache/hipache
 [waffle-image]: https://badge.waffle.io/hipache/hipache.png?label=in%20progress&title=Ready
