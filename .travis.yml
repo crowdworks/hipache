@@ -10,15 +10,16 @@ services:
 env:
     - NO_MEMCACHED=true
 
-before_install:
-    - sudo apt-get update
+addons:
+  apt:
+    packages:
+    - python-pip
 
 install:
     - npm install -g gulp
     - npm install
     # Pythonic tests require
-    - sudo apt-get install python-pip
-    - (cd test/functional && sudo pip install -r requirements.txt)
+    - (cd test/functional && pip install --user -r requirements.txt)
     # Zookeeper install
     - pushd $HOME
     - curl -C - http://apache.websitebeheerjd.nl/zookeeper/stable/zookeeper-3.4.6.tar.gz | tar -zx
@@ -48,3 +49,5 @@ script:
 after_script:
     # Coveralls report
     - npm run coveralls
+
+sudo: false
